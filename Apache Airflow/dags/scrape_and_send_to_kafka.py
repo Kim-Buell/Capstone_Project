@@ -201,7 +201,7 @@ def stream_data(date):
 
 def send_data_to_kafka(**kwargs):
     # Define Kafka bootstrap servers
-    KAFKA_BOOTSTRAP_SERVERS = '192.168.1.246:9092'
+    KAFKA_BOOTSTRAP_SERVERS = 'ip_address' # Enter IP Address
 
     # Get the DataFrame from task instance
     dataframe = kwargs['ti'].xcom_pull(task_ids='scrape_data')
