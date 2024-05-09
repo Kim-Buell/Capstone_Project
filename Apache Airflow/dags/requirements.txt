@@ -1,0 +1,6 @@
+apache-airflow
+selenium
+pandas
+beautifulsoup4
+kafka-python
+chromedriver-binary
